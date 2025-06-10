@@ -34,9 +34,9 @@ class _NinjaCardState extends State<NinjaCard> {
             ninjaLevel+=1;
           });
         },
-        child: Icon(Icons.add),
         backgroundColor: Colors.grey[800], 
         foregroundColor: Colors.grey[200],
+        child: Icon(Icons.add),
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
